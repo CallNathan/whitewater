@@ -12,7 +12,8 @@ nav{
     padding: 50px;
 }
 .toplinks{
-    padding:50px
+    padding:50px;
+    font-size: large;
 }
 #logo_link{
     padding: 0px;
