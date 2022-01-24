@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: #AAAAAA;
+}
+
+header {
+    text-align: center;
+    background-color: tan;
+}
+nav{
+    text-align: center;
+    padding: 50px;
+}
+.toplinks{
+    padding:50px
+}
+#logo_link{
+    padding: 0px;
+}
