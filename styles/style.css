@@ -18,3 +18,7 @@ nav{
 #logo_link{
     padding: 0px;
 }
+a:hover{
+    background-color: black;
+    color: white;
+}
