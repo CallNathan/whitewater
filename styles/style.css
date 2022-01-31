@@ -59,3 +59,7 @@ main section{
 .logo{
     width: 80px;
 }
+#background {
+    height: 725px;
+    background-color: tan;
+}
