@@ -1,3 +1,8 @@
+/*
+# is for IDs
+. is for class
+*/ 
+
 body{
     text-align: center;
     background-color: #AAAAAA;
@@ -50,4 +55,7 @@ a:hover{
 }
 main section{
     text-align: center;
+}
+.logo{
+    width: 80px;
 }
