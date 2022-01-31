@@ -7,10 +7,21 @@ header {
     text-align: center;
     background-color: tan;
 }
+footer {
+    background-color: tan;
+}
 nav{
-    text-align: center;
+
     padding: 50px;
 }
+nav a{
+    text-align: center;
+}
+#content {
+    margin:0 auto;
+    max-width: 1600px;
+}
+
 .toplinks{
     padding:50px;
     font-size: large;
@@ -18,7 +29,25 @@ nav{
 #logo_link{
     padding: 0px;
 }
+a {
+    text-decoration: none;
+}
 a:hover{
     background-color: black;
     color: white;
+}
+#icon{
+    width:80px
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section{
+    text-align: center;
 }
