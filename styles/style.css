@@ -2,25 +2,29 @@
 # is for IDs
 . is for class
 */ 
-
 body{
-    text-align: center;
     background-color: #AAAAAA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
-
+h2 {
+    margin: 0;
+}
 header {
-    text-align: center;
     background-color: tan;
 }
 footer {
     background-color: tan;
+    padding: 25px 50px;
+    margin-top:200px;
 }
+footer .social img{
+    padding-top: 15px;
+}   
 nav{
-
-    padding: 50px;
-}
-nav a{
-    text-align: center;
+    text-decoration: none;
 }
 #content {
     margin:0 auto;
@@ -30,6 +34,10 @@ nav a{
 .toplinks{
     padding:50px;
     font-size: large;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
 }
 #logo_link{
     padding: 0px;
@@ -41,8 +49,12 @@ a:hover{
     background-color: black;
     color: white;
 }
-#icon{
-    width:80px
+#hero-box{
+    box-sizing: border-box;
+    border: 5px solid tan;
+}
+#hero-img{
+    width: 100%;
 }
 #hero-msg h1{
     text-align: center;
@@ -52,6 +64,7 @@ a:hover{
 }
 .button-box {
     text-align: center;
+    padding-bottom: 30px;
 }
 main section{
     text-align: center;
@@ -62,4 +75,33 @@ main section{
 #background {
     height: 725px;
     background-color: tan;
+}
+.msg {
+    background-color: tan;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+.book, .join{
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: tan;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.home-title{
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid tan;
+}
+main section img{
+    box-sizing: border-box;
 }
